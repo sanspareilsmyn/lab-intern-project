@@ -27,4 +27,5 @@ System Model은 다음과 같이 모델링된다.
 다음과 같은 Transmitter - Channel - Receiver 구조에서 아래와 같이 AUD Layer를 모델링한다. 
 사용한 모델은 IHT(Iterative Hard Thresholding)-net을 간략화한 형태이다. 원 모델의 IHT를 IHT-Net으로 개조했는데, Thresholding은 ReLU로 대체했고 Iteration에서의 weight는 Training 가능하게 바꾼 형태이다. 
 
-![image](https://user-images.githubusercontent.com/52681837/93708297-f6df6a80-fb6f-11ea-8fa3-87cc6ce17bab.png)
+![image](https://user-images.githubusercontent.com/52681837/93708977-a8cd6580-fb75-11ea-9f44-f00bf531b600.png)
+
